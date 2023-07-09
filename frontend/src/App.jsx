@@ -26,7 +26,7 @@ function App() {
     <>
       <div>
         <a href="https://fastapi.tiangolo.com/" target="_blank">
-          <img src={fastAPILogo} className="logo fastAPI" alt="Vite logo" />
+          <img src={fastAPILogo} className="logo fastAPI" alt="FastAPI logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
