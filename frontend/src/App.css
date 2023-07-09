@@ -16,6 +16,16 @@
   padding: 1.25em;
 }
 
+.logo.python,
+.logo.javascript {
+  height: 3em;
+  padding: 1.25em;
+}
+
+.logo.javascript {
+  border-radius: 25%;
+}
+
 .logo.vite {
   height: 1.75rem;
 }
@@ -30,6 +40,14 @@
 
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.python:hover {
+  filter: drop-shadow(0 0 2em #2d79c7);
+}
+
+.logo.javascript:hover {
+  filter: drop-shadow(0 0 2em #f6dd3dd7);
 }
 
 .backendMessage {

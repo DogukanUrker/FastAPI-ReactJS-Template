@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 import fastAPILogo from "./assets/fastapi.png";
+import pythonLogo from "./assets/python.png";
+import javascriptLogo from "./assets/javascript.jpg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
@@ -51,6 +53,21 @@ function App() {
           <small>Dogukan Urker</small>
         </a>
         <p className="read-the-docs">Click on the logos to learn more.</p>
+        <div>
+          <a href="https://docs.python.org/3/" target="_blank">
+            <img src={pythonLogo} className="logo python" alt="Python logo" />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+            target="_blank"
+          >
+            <img
+              src={javascriptLogo}
+              className="logo javascript"
+              alt="Javascript logo"
+            />
+          </a>
+        </div>
       </div>
     </>
   );
